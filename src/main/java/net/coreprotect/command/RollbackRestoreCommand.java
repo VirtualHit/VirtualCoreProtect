@@ -379,13 +379,13 @@ public class RollbackRestoreCommand {
                                                 Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.PREVIEW_CANCELLING));
                                             }
                                             else if (finalPreview == 1) {
-                                                Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.ROLLBACK_STARTED, users, Selector.THIRD));
+                                                //Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.ROLLBACK_STARTED, users, Selector.THIRD));
                                             }
                                             else if (action == 0) {
-                                                Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.ROLLBACK_STARTED, users, Selector.FIRST));
+                                                //Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.ROLLBACK_STARTED, users, Selector.FIRST));
                                             }
                                             else {
-                                                Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.ROLLBACK_STARTED, users, Selector.SECOND));
+                                                //Chat.sendMessage(player2, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.ROLLBACK_STARTED, users, Selector.SECOND));
                                             }
 
                                             if (finalArgAction.contains(5)) {
